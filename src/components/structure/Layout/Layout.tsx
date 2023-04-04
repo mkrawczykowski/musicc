@@ -1,5 +1,5 @@
 import React from 'react';
-import CookieConsent from '../CookieConsent/CookieConsent';
+
 import GTM from '../GTM/GTM';
 // import TagManager from 'react-gtm-module';
 
@@ -23,7 +23,6 @@ const Layout = ({children}) => {
             
             {/* <Footer></Footer> */}
             <GTM/>
-            <CookieConsent/>
             
         </>
     )
