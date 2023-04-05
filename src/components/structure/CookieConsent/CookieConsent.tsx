@@ -6,14 +6,14 @@ export default function CookieConsent() {
     useEffect(() => {
 
         if (!document.getElementById('cc--main')) {
-            // window.CookieConsentApi = window.initCookieConsent();
-            // // window.CookieConsentApi.run({
-                let cc = window.initCookieConsent();
-                console.log('cookieconsent');
-                console.log(cc);
+            window.CookieConsentApi = window.initCookieConsent();
+            window.CookieConsentApi.run({
+                // let cc = window.initCookieConsent();
+                // console.log('cookieconsent');
+                // console.log(cc);
 
-                cc.run(
-                    {
+                // cc.run(
+                //     {
                         current_lang: 'en',
                         autoclear_cookies: true, // default: false
                         page_scripts: true, // default: false
