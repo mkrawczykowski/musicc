@@ -5,7 +5,7 @@ export default function GTM() {
     return(
 <>
         
-<Script data-cookiecategory="analytics_storage">
+<Script type="text/plain" data-cookiecategory="analytics_storage">
     {`
         (function(w,d,s,l,i){
             w[l]=w[l]||[];
