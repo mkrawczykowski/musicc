@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GTM from '../GTM/GTM';
+// import GTM from '../GTM/GTM';
 // import TagManager from 'react-gtm-module';
 
 // import Header from '../Header/Header';
@@ -22,7 +22,7 @@ const Layout = ({children}) => {
            
             
             {/* <Footer></Footer> */}
-            <GTM/>
+            {/* <GTM/> */}
             
         </>
     )

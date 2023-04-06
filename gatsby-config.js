@@ -55,6 +55,12 @@ module.exports = {
         },
         // More options defined here https://purgecss.com/configuration.html#options
       },
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: '/test.js', // Change to the script filename
+      },
+    },
   ],
 }
